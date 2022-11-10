@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-LIST with Lister</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div >
+            <div >
+                <h1 id="header-title">Item Lister</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="filter" placeholder="Search Items...">
+            </div>
+        </div>
+      </header>
+      <div class="container" id="main2">
+       <div id="main">
+        <h2 class="title">Add Items</h2>
+        <form id="addForm" >
+          <input type="text" id="itam">
+          <input type="submit" class="btn-dark" value="Submit">
+        </form>
+        <h2 class="title">Items</h2>
+        <ul id="items" class="list-group">
+          <li class="list-group-item">Item 1 <button class="btn delete">X</button></li>
+          <li class="list-group-item">Item 2 <button class="btn delete">X</button></li>
+          <li class="list-group-item">Item 3 <button class="btn delete">X</button></li>
+          <li class="list-group-item">Item 4 <button class="btn delete">X</button></li>
+        </ul>
+       </div>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
